@@ -1,0 +1,125 @@
+
+* {
+    font-family: Roboto;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Logo{
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.headlinks a{
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.awe{
+    display: flex;
+    padding: 50px;
+    align-items: baseline;
+    gap: 40px;
+    justify-content: center;
+}
+.ph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 800px;
+    height: 150px;
+    background-color: grey;
+}
+.awetxt button{
+    align-items: last baseline;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    padding-inline: 20px;
+    background-color: #3882f6;
+    color: white;
+}
+.ph p{
+    margin: 0;
+    padding: 0;
+    align-self: baseline;
+}
+.diva{
+    font-family: Roboto;
+    background-color: #1f2937;
+    color: white;
+    width: 100vw;
+}
+
+.divb{
+text-align: center;
+width: 100vw;
+margin-block: 40px;
+}
+.ills{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.item{
+    width:min-content;
+}
+.item figure{
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+.divc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+
+    height: auto;
+    width: 100vw;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.thor{
+    text-align: right;
+    font-style: normal;
+}
+.divd{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    padding: 20px;
+    align-items: last baseline;
+
+    width: 60vw;
+    background-color: #3882f6;
+    color: white;
+}
+.divdb button{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-inline: 20px;
+    color: white;
+
+}
+footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    width: 100vw;
+    padding: 15px;
+}
